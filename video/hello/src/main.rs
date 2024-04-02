@@ -1,5 +1,5 @@
+use hello::greet;
 fn main() {
-    println!("Hello, world!");
-    let mut bunnies = 2;
-    bunnies = 4;
+    let mut _bunnies = 2;
+    greet();
 }
